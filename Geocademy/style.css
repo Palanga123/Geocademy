@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient( 70deg, grey 50%, whitesmoke 20% , royalblue 30%);
+    background-repeat: none;
+    background-size: cover;
+}
+header{
+    position: fixed;
+}
+main{
+    width: 80%;
+    height: 100%;
+    margin: 50px auto;
+}
+.grades{
+    display: flex;
+}
+.grd_des{
+    height: 420px;
+    width: 270px;
+    background-color: rgb(180, 178, 178);
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.grd_des p{
+    height: 210px;
+    padding: 10px;
+}
+.grd_des button{
+    height: 40px;
+    width: 120px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.grd_des .img, img{
+    height: 150px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}

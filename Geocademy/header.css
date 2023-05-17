@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Montserrat;
+}
+header{
+    height: 60px;
+    width: 100%;
+    position:sticky;
+}
+#logo{    
+    float: left;
+    height: 40px;
+    width: 120px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+.nav{
+    float: right; 
+}
+.nav button{
+    background: transparent;
+    width: 75px;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: calibri;
+    border: none;   
+}
+#active{    
+    border-bottom: solid 2px orange;
+}
+.nav button:hover{  
+    border-bottom: solid 2px royalblue;
+}
+button{
+    cursor: pointer;
+}
